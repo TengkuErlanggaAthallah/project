@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #295FE3;
+}
+.navbar{
+    width: 100%;
+    height: 8%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.nav-link{
+    display: flex;
+    justify-content: 
+    space-between; 
+    position: relative; 
+    left: 170%; 
+    list-style: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    top: 5px;
+}
+.ini p{
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ini{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.halo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+.col-4 {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+.col-4 img{
+    width: 75%;
+    margin-top: 40px;
+}
+.container1 {
+    background-color: b;
+}
+.col-3{
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 50px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.col-3 h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    margin-top: -35px;
+    font-family: 'Quicksand', sans-serif;
+}
+footer {
+    background-color: #333;
+    padding: 50px;
+    text-align: center;
+    margin-top: 150px;
+    height: 50px;
+}
+footer small {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+.container2 {
+    margin-top: 30px;
+}
